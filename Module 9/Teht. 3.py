@@ -13,4 +13,5 @@ class Car:
             self.current_speed = 0
 
 
-
+    def drive(self, hours):
+        self.travelled_distance += self.current_speed * hours
